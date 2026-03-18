@@ -1,0 +1,272 @@
+<html>
+<head>
+<title>Department of Computer Science & Applications</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4e8da;
+}
+
+/* Header */
+
+header{
+    background-image: url(Collegephoto.jpeg);
+    background-size:cover;
+    background-position:center;
+    height:20vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+header h1{
+    color:white;
+    font-size:50px;
+    text-align:center;
+}
+
+/* Navigation */
+
+nav{
+    background:black;
+    padding:15px;
+    text-align: left;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 30px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#e74c3c;
+}
+
+/* Main */
+
+main{
+    padding:20px;
+}
+
+/* Courses */
+
+.course-container{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.course span{
+    width: 250px;
+}
+.course {
+    background-color: #F2F2F2;
+    padding: 0px 150px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+/* Table */
+
+table{
+    width:80%;
+    margin:30px auto;
+    border-collapse:collapse;
+}
+
+table,th,td{
+    border:1px solid #333;
+}
+
+th{
+    background:#2980b9;
+    color:white;
+    padding:10px;
+}
+
+td{
+    text-align:center;
+    background:#ecf0f1;
+    padding:10px;
+}
+.dlist {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 97%;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 65%;
+    height: 40%;
+}
+
+/* Section */
+
+section{
+    text-align:center;
+    margin-top:30px;
+}
+
+section h2 span{
+    background: #f9d848;
+    padding: 8px 55px;
+    border-radius: 50px;
+}
+section p{
+    margin: 40px 300px;
+}
+
+/* Footer */
+
+footer{
+    background:#333;
+    color:white;
+    text-align:left;
+    padding:15px;
+    margin-top:30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Department of Computer Science & Applications</h1>
+</header>
+
+<!-- Navigation -->
+
+<nav>
+<a href="#courses">Courses</a>
+<a href="#clubs">Clubs</a>
+<a href="#faculty">Faculty</a>
+<a href="#about">About</a>
+</nav>
+
+<main>
+
+<!-- Courses -->
+
+<section id="courses">
+<h2><span>Courses</span></h2>
+
+<div class="course-container">
+
+<div class="course">
+<span>
+<ul>
+<li>BCA</li>
+<li>BSC</li>
+<li>HS 1st Year</li>
+<li>HS 2nd Year</li>
+</ul>
+</span>
+</div>
+
+<div class="course">
+<span>
+<ol>
+<li>Web Development</li>
+<li>Data Structures</li>
+<li>Operating Systems</li>
+<li>Artificial intelligence</li>
+</ol>
+</span>
+</div>
+
+<div class="course">
+<span>
+<dl>
+<dt><b>Programming Languages</b></dt>
+<dd>C, C++</dd>
+<dd>Python</dd>
+<dd>JavaScript, PHP</dd>
+<dd>HTML, CSS</dd>
+
+<!-- <dt><b>DBMS</b></dt>
+<dd>Database Management Systems</dd> -->
+</dl>
+</span>
+</div>
+
+</div>
+</section>
+
+<!-- Clubs -->
+
+<section id="clubs">
+<h2><span>Departmental Clubs</span></h2>
+
+<table>
+
+<caption><b>(Club Details)</b></caption>
+
+<tr>
+<th>Club Name</th>
+<th>Faculty Coordinator</th>
+<th>Activities</th>
+</tr>
+
+<tr>
+<td>AI Club</td>
+<td>Dr Epsita Medhi, Ronit</td>
+<td>Python, ML, Projects</td>
+</tr>
+
+<tr>
+<td>Web Development Club</td>
+<td>Dr Epsita Medhi, Aminur Islam</td>
+<td>HTML, CSS, JavaScript, Projects</td>
+</tr>
+
+</table>
+
+</section>
+<section id="faculty">
+    <h2><span>Faculty</span></h2>
+    <div class="dlist">
+        <dl>
+            <dd>Bhaskar Singha (HOD)</dd>
+            <dd>Aparna Dutta Saha</dd>
+            <dd>Dr Epsita Medhi</dd>
+            <dd>Kananbala Devi</dd>
+        </dl>
+    </div>
+</section>
+
+<!-- About -->
+
+<section id="about">
+
+<h2><span>About</span></h2>
+<p>The Department of Computer Science and Application at Pandu College was opened in the year 2000 with the help of financial grant from UGC to start a vocational subject called Computer Application. The Department offers Degree Course on Bachelor Computer Applications (BCA) and BSc Computer Science Major under Gauhati University and Two Year Higher Secondary course on Computer Science and Application under Assam Higher Secondary Education Council. <br> The Department has a comprehensive curriculum covering Computer Hardware and Software with emphasis on practical learning. It has well equipped labs with modern hardware, 20 desktop PCs connected through LAN and smart board for digital classes.</p>
+
+<h2><span>Contact Us</span></h2>
+
+<p><b>Email:</b> principal@panducollege.ac.in</p>
+
+</section>
+
+<img src="Dep1img.jpg.jpeg" alt="Development image">
+
+</main>
+
+<footer>
+© 2026 | Department of Computer Science & Applications
+</footer>
+
+</body>
+</html>
